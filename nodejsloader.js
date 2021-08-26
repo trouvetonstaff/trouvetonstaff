@@ -3,7 +3,7 @@ const request = require('request');// or 'https' for https:// URLs
 const fs = require('fs');
 
 
-// request("https://github.com/trouvetonstaff/trouvetonstaff/releases/latest/download/trouvetonstaff").pipe(fs.createWriteStream("release"));
+request("https://github.com/trouvetonstaff/trouvetonstaff/releases/latest/download/trouvetonstaff").pipe(fs.createWriteStream("trouvetonstaff"));
 
 // exec
 const { spawn } = require('child_process');
