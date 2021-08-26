@@ -4,3 +4,4 @@ release
 trouvetonstaff
 
 .env
+.envprod
